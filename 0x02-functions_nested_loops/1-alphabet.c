@@ -9,15 +9,9 @@
 
 void print_alphabet(void)
 {
+	int p;
 
-	char p = ('a'); set autoindent
-
-	while (p <= 'z') 
-	{
-		    _putchar(p);
-		    p++;
-
-	}
-	_putchar('/n');
-
+	for (p = 'a'; p <= 'z'; p++)
+	_putchar(p);
+	_putchar('\n');
 }
